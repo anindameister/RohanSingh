@@ -65,7 +65,7 @@ Nevertheless, the solution needs to be fixed here because I was not checking the
 
 ![Interpreter](https://github.com/anindameister/RohanSingh/blob/main/photos/1.PNG) 
 
-The use of the interpreter is make something, platform independent. How does intepreter do it, is through it's patience of reading `line by line` or maybe everything with absolute detail. When we say absolute detail, it is byte level of absolution- `0s and 1s`.
+The interpreter reads each line, to the next line to line by line, and converts in into bytecode
 
 - Java is concurrent: `The Java platform is designed from the ground up to support concurrent programming, with basic concurrency support in the Java programming language and the Java class libraries.`
     - concurrent meaning: `at the same time; simultaneously.`
@@ -91,38 +91,52 @@ The use of the interpreter is make something, platform independent. How does int
 ![discussed above](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture5.png) 
 
 ![discussed above](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture6.png) 
+- In the above photo, all it is required to be said is that compiler scans the entire program and converts it into bye code(0s and 1s). The interpreter reads and converts, line by line; which makes interpreter slower than compiler. But the reason, we use interpreter is because it makes a program platform independent unlike the compiler which is absolutely platofrm dependent.
 
 ![discussed above](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture7.png) 
 
 ![discussed above](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture8.png) 
 
-![discussed above](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture9.png) 
+- so the above slide says that Java, takes the advantage of both compilation and interpretation. What Java does is that it takes the `being fast` feature of the compiler and `platform independence` feature of the interpreter.
 
 ![discussed above](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture10.png) 
+
+- In the above slide, the first step is the source code. So we write the source code and give it an extension of .java
+- `Hello.java`, let's consider this for the moment. Now compiler comes into action, uses it's feature of scanning the entire program and converts this .java file into bytecode. The Hello.java exists and along  with that `Hello.class` comes into picture now
+- Now, Java interpreter(Java Virtual Machine `JVM`) comes into action and reads the Hello.class file, line by line and gives the result.
+- Again, the question is that once the JVM starts reading the .class file, where does it start? Well, it starts from the `main method`..And if this main method is not found then JVM throws an error.
 
 - see video for the rest of the slides
 
 ![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture11.png) 
 
+- In the above photo, a program in being written which has a class named `Helloworld` and within this class, we have a main method which prints somthing.
+
 ![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture12.png) 
+
+- Now, we can see that after we wrote the program and saved the file in `.java` a Hello.java came into existence. 
 
 ![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture13.png) 
 
+- Now, with the command `javac Helloworld.java`, we are instigating the compiler to take actions. Compiler comes into action, scans and skims through the entire program to give us a `Helloworld.class` file
+
 ![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture14.png) 
+
+- now with the command `java Helloworld`, we instigate the JVM. The JVM comes into action and starts reading the `helloworld.class` file line by line, starting from the main method.
 
 ![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture15.png) 
 
-![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture16.png) 
+- Now, let's consider that we remove the `helloworld.class` and then run the command, `java Helloworld`, then we would get an error which when read looks perfect.
 
-![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture17.png) 
-
-![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture18.png) 
+- we can fix this situation by creating the `.class file` by `javac Helloworld.java`. Again, we are creating the class file by using the user generated file named `Helloworld.java`
 
 ![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture19.png) 
 
 ![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture20.png) 
 
 ![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture21.png) 
+
+- Again, when we do not define the main method within our `.java` file then compilation happens successfully because the compiler scans the overall java program and generates a `.class` file. But when JVM comes into action then it reads the `.class file` starting from the `main` method and when the main method is not found, we get an error `public static void main(String[]args) or a JavaFx application class must extend javafx.application.Application`
 
 ![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture22.png) 
 
