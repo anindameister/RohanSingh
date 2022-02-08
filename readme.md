@@ -52,11 +52,11 @@ Nevertheless, the solution needs to be fixed here because I was not checking the
 
 - Again, coming back to the point of discussion
 
-![Why Java](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture1.png) 
+![Why Java](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture2.png) 
 
 - There's a history of Java, which I don't think would be asked over the interview that I have tomorrow 19Jan2022, so am skipping the details and putting the slide.
 
-![Introduction to Java](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture2.png) 
+![Introduction to Java](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture3.png) 
 
 - Java is object oriented `Java is an object-oriented programming language where every program has at least one class. Programs are often built from many classes and objects, which are the instances of a class.`
     - class: `A class is a user defined blueprint or prototype from which objects are created. It represents the set of properties or methods that are common to all objects of one type`
@@ -125,5 +125,7 @@ The use of the interpreter is make something, platform independent. How does int
 ![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture21.png) 
 
 ![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture22.png) 
+
+
 
 
