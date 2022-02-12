@@ -140,6 +140,12 @@ The interpreter reads each line, to the next line to line by line, and converts 
 
 ![see video for the rest of the slides](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture22.png) 
 
+![class](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture23.png) 
+
+![oops,class-object](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture24.png) 
+
+![main method](https://github.com/anindameister/RohanSingh/blob/main/photos/Picture25.png) 
+
 
 
 
