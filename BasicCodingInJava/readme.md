@@ -14,7 +14,9 @@ public class Main {
         Main main=new Main();
         main.Sum_of_N();
         main.Sum_of_N(100);
-        System.out.println(main.Sum_of_even(100));
+        System.out.println("Sum of N natural EVEN numbers with user input "+main.Sum_of_even(100));
+        System.out.println("***********************");
+        System.out.println("Below is the result of pyramid problem");
         main.pyramid(5);
 
 
@@ -58,7 +60,7 @@ public class Main {
          * uncomment the print statement is you want to check the contents of the arraylist
          */
 
-        System.out.println("Natural numbers upto: "+n+" are"+arrayList);
+//        System.out.println("Natural numbers upto: "+n+" are"+arrayList);
         int sum=0;
         for(int i=0;i<arrayList.size();i++){
             //converting arraylist.get(i) to int
@@ -81,3 +83,4 @@ public class Main {
     }
 }
 ```
+<img src="photos/1.PNG">
